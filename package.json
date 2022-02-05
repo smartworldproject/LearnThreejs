@@ -1,0 +1,26 @@
+{
+  "name": "step-4-tweened",
+  "version": "1.0.0",
+  "description": "Animating the cubes with tween",
+  "main": "index.html",
+  "type": "ESModule",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "18.6.4",
+    "three": "0.123.0",
+    "three.interaction": "0.2.3",
+    "three.interactive": "1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "animation",
+    "three.js",
+    "3d model"
+  ]
+}
